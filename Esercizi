@@ -1,0 +1,117 @@
+#Esercizi variabili
+'''
+Esercizio 1
+Dichiarare una variabile "nome" e assegnargli il tuo nome. Mandare a schermo.
+'''
+nome = "Ylenia"
+print(nome)
+'''
+Esercizio 2
+Dichiarare una variabile "eta" e assegnargli la tua età. Mandare a schermo.
+'''
+eta = 37
+print(eta)
+'''
+Esercizio 3
+Dichiarare una variabile "pi" e assegnargli il valore di pi greco (3,14159). Mandare a schermo.
+'''
+pi = 3.14159
+print(pi)
+'''
+Esercizio 4
+Creare una variabile "lunghezza" e assegnargli un valore, quindi riassegnare la variabile a 15. Mandare a schermo.
+'''
+lunghezza = 9
+lunghezza = 15
+print(lunghezza)
+'''
+Esercizio 5
+Creare una variabile "nome_completo" e assegnargli una stringa contenente il tuo nome e cognome. Mandare a schermo.
+'''
+nome_completo = "Ylenia Sinatra"
+print(nome_completo)
+'''
+Esercizio 6
+Creare una variabile "eta_futura" e assegnargli il valore dell'età che avrai tra 10 anni (utilizzando la variabile età già esistente). Mandare a schermo.
+'''
+eta_futura = eta + 10
+print(eta_futura)
+'''
+Esercizio 7
+Creare delle variabili "nome", "cognome" ed "anno_di_nascita" ed assegnarle il valore dei valori. Mandare a schermo in un unico print. Sovrascrivere tutte le variabili e rimandare a schermo una seconda volta.
+'''
+#la variabile nome è stata già creata nell'esercizio 1
+cognome = "Sinatra"
+anno_di_nascita = 1987
+print(nome, cognome, anno_di_nascita)
+#sovrascrivo tutte le variabili
+nome = "Maria"
+cognome = "Rossi"
+anno_di_nascita = 1999
+print(nome, cognome, anno_di_nascita)
+'''
+Esercizio 8
+Creare una variabile `eta_attuale` e assegnargli il valore dell'età che hai attualmente, calcolandola in base all'anno corrente. Mandare a schermo `eta_attuale`
+'''
+anno_di_nascita = 1987
+anno_corrente = 2024
+eta_attuale = anno_corrente - anno_di_nascita
+print(eta_attuale)
+
+#Esercizi operatori
+'''
+Esercizio 1
+Dichiarare due variabili "numero1" e "numero2" e assegnargli due numeri interi. Eseguire l'addizione tra le due variabili e assegnare il risultato ad una nuova variabile "somma", 
+mandandola a schermo.
+'''
+numero1 = 10
+numero2 = 5
+somma = numero1 + numero2
+print(somma)
+
+'''
+Esercizio 2
+Eseguire la sottrazione tra le due variabili e assegnare il risultato ad una nuova variabile "differenza". Mandare a schermo.
+'''
+differenza = numero1 - numero2
+print(differenza)
+'''
+Esercizio 3
+Eseguire la moltiplicazione tra le due variabili e assegnare il risultato ad una nuova variabile "prodotto". Mandare a schermo.
+'''
+prodotto = numero1 * numero2
+print(prodotto)
+'''
+Esercizio 4
+Eseguire la divisione tra le due variabili e assegnare il risultato ad una nuova variabile "quoziente". Mandare a schermo.
+'''
+quoziente = numero1 / numero2
+print(quoziente)
+'''
+Esercizio 5
+Eseguire l'operazione di modulo tra le due variabili e assegnare il risultato ad una nuova variabile "resto". Mandare a schermo.
+'''
+resto = numero1 % numero2
+print(resto)
+'''
+Esercizio 6
+Incrementare "numero1" di 1 e decrementare "numero2" di 3. Mandare a schermo i nuovi valori.
+'''
+numero1+=1 
+numero2-=3
+print(numero1, numero2)
+'''
+Esercizio 7
+Moltiplicare "numero1" per se stesso + 5, sommarlo quindi a "numero2" elevato alla seconda. Assegnare l'operazione alla variabile risultato e mandare a schermo.
+'''
+numero1 = numero1 * (numero1+5)
+risultato = numero1 + (numero2**2)
+print(risultato)
+'''
+Esercizio 8
+Trovare quella operazione per portare "numero1" a valore 1 senza riassegnarlo direttamente ad 1 e sottraendolo a se stesso.
+'''
+numero1/=numero1
+print(numero1)
+
+
